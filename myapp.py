@@ -71,11 +71,11 @@ def predict(km_driven,fuel,seller_type,transmission,owner,mileage,engine,max_pow
 def main():
 
     # year = st.number_input('When was the year of your vehicle purchase? (Example : 2017)', min_value = 1994, max_value = 2022)
-    vehicle_age = st.slider('When was the year of your vehicle purchase? (Example : 2017)', 1994, 2020)
+    vehicle_age = st.slider('When was your last vehicle purchased? (Example : 2017)', 1994, 2020)
     vehicle_age = 2022 - vehicle_age
     vehicle_age2 = np.log(vehicle_age)
 
-    km_driven = st.number_input('How many kilometers is your vehicle? (Example : 1000 Km)', min_value = 1)
+    km_driven = st.number_input('How many kilometers does your vehicle have? (Example : 1000 Km)', min_value = 1)
     km_driven2 = np.log(km_driven)
 
     fuel = st.selectbox(
@@ -88,12 +88,12 @@ def main():
      'What is the transmission type of your vehicle?',
      ('Automatic', 'Manual'))
     owner = st.selectbox(
-     'How many previous vehicle owners?', 
+     'How many previous owners have there been?', 
      ('First Owner', 'Second Owner', 'Third Owner', 'Fourth & Above Owner'))
 
-    mileage = st.number_input('How many mileage (kmpl) your vehicle? (Example : 17,7 kmpl)', min_value = 1.0, max_value = 42.0)
+    mileage = st.number_input('How many kilometers per gallon (kmpl) does your vehicle get? (Example : 17,7 kmpl)', min_value = 1.0, max_value = 42.0)
 
-    engine = st.number_input('How many CC of your vehicle? (Example : 1298 CC)', min_value = 1, max_value = 3604)
+    engine = st.number_input('What is the capacity of your vehicle? (Example : 1298 CC)', min_value = 1, max_value = 3604)
 
     max_power = st.number_input('What is the max power (bhp) of your vehicle? (Example : 90 bhp)', min_value = 1.0)
     max_power2 = np.log(max_power)
@@ -111,4 +111,4 @@ def main():
 
 if __name__=='__main__':
     main()
-        
+       
