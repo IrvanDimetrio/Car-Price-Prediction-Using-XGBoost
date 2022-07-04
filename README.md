@@ -12,7 +12,7 @@
 
 
 ## 💻Demo Streamlit Car Price Prediction App💻
-<br>
+
 For the Demo app, you can check my<b><a href ="https://irvandimetrio-car-price-prediction-using-xgboost-myapp-ysbzcg.streamlitapp.com/"> Streamlit </a></b>
 <br>
 
