@@ -17,7 +17,7 @@ For the Demo app, you can check My<b><a href ="https://irvandimetrio-car-price-p
 <br>
 
 ## 🤔Problems in Real Lifes
-* **Conventional Business Process Consumes Too Much Time** (The screening and negotiation process takes a long time, so customers become hesitant and tend not to sell their cars to our company)
+* **Conventional Business Process Consumes Too Much Time** (The screening and negotiation process takes a long time, so customers become hesitant and tend not to sell their cars)
 * **Lack of Trust from Customers due to Staff’s Subjectivity** (The company determines the purchase price of a used car is not standard (not in accordance with the actual condition of the car) so that the price of a used car is determined from a biased perspective by each staff)
 
 ## 📝Goal & Objective
