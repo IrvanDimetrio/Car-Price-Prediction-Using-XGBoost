@@ -16,6 +16,14 @@
 For the Demo app, you can check My<b><a href ="https://irvandimetrio-car-price-prediction-using-xgboost-myapp-ysbzcg.streamlitapp.com/"> Streamlit</a></b>
 <br>
 
+## Problems in Real Lifes
+* **Conventional Business Process Consumes Too Much Time** (The screening and negotiation process takes a long time, so customers become hesitant and tend not to sell their cars to our company)
+* **Lack of Trust from Customers due to Staff’s Subjectivity** (The company determines the purchase price of a used car is not standard (not in accordance with the actual condition of the car) so that the price of a used car is determined from a biased perspective by each staff)
+
+## Goal & Objective
+* To build machine learning models to determine the selling price of a car that can be standardized using some variables or features of the car's actual condition.
+
+
 ## 🖋 About Project
 *   This repository contains files to create Machine Learning Model to Predict Car Price using Jupyter Notebook and the dataset from Kaggle
 *   The steps taken consist of: 
